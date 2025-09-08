@@ -1,3 +1,30 @@
+# ParaBank Playwright Test Automation
+
+This repository contains my **UI automation test suite** for the [ParaBank demo banking application](https://parabank.parasoft.com/).  
+The tests are written using **Playwright** with Node.js, and cover key end-to-end scenarios of online banking workflows.
+
+## Features Covered
+- User Login and Logout
+- Viewing Account Details and Transaction History
+- Transferring Funds between Accounts
+- Bill Payment
+- Opening a New Account
+- Finding Transactions
+- Updating Contact Information
+- Requesting Loans (Approved / Rejected scenarios)
+- Verifying Transaction History Table
+
+## Tech Stack
+- **Playwright** (`@playwright/test`)
+- **JavaScript / Node.js`
+- Runs locally and supports CI/CD integration
+
+## How to Run
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/mohamed878787/parabank-playwright-tests.git
+   cd parabank-playwright-tests
+
 # Introduction
 The ParaBank demo web application and associated web services (SOAP and REST) from Parasoft.
 
@@ -82,3 +109,4 @@ __soatest(.sh\|.bat)__                 | Executes Parasoft SOAtest API and Web f
 set-vars.(.sh\|.bat): setup JTEST_HOME and SOATEST_HOME environment variable before running any script.
 all reports will be stored under target/report/<build ID> directory.
 on Windows, 7zip must be installed (default to C:\Program Files\7-zip) to run deploy-jtest-monitor.bat script.
+
